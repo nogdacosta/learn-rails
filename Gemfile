@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -45,3 +43,13 @@ group :development do
   gem 'spring'
 end
 
+# learn-rails
+gem 'foundation-rails'
+gem 'gibbon'
+gem 'high_voltage'
+gem 'simple_form'
+group :development do
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'rails_layout'
+end
